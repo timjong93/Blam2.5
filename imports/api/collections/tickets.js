@@ -7,7 +7,7 @@ this.ticketSchema = new SimpleSchema({
   title: {type: String, defaultValue: 'New Ticket'},
   description: {type: String, optional:true},
   owner: {type: String, optional:true},
-  status: {type: String, defaultValue: 'Open'},
+  status: {type: String, defaultValue: 'New'},
   priority: {type: Number, defaultValue: 1},
   location: {type: String, optional:true},
   handles: {type: Array, defaultValue: []},

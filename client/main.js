@@ -16,4 +16,9 @@ Meteor.startup(() => {
       return moment(String(value)).format('MM/DD/YYYY hh:mm')
     }
   })
+  Vue.filter('formatTime', function(value) {
+    if (value) {
+      return moment(String(value)).format('hh:mm A')
+    }
+  })
 })

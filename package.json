@@ -10,6 +10,7 @@
   "dependencies": {
     "@babel/runtime": "^7.15.4",
     "autoprefixer": "^10.4.0",
+    "lodash": "^4.17.21",
     "meteor-node-stubs": "^1.1.0",
     "moment": "^2.29.1",
     "postcss": "^8.3.1",
