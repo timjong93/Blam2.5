@@ -1,0 +1,20 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('meteor');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Insert a few documents into the sales collection.
+db.handles.insertMany([
+  { '_id': 1, 'callsign': 'BATA-101', 'name': 'WL-1', 'subnet': 'route', 'motoTrboId': '123456', 'lastLog': new Date(), 'icon':'car', lastLogLimit: 60 },
+  { '_id': 2, 'callsign': 'BATA-102', 'name': 'WL-2', 'subnet': 'route', 'motoTrboId': '123456', 'lastLog': new Date(), 'icon':'car', lastLogLimit: 60 },
+  { '_id': 3, 'callsign': 'BATA-103', 'name': 'WL-3', 'subnet': 'route', 'motoTrboId': '123456', 'lastLog': new Date(), 'icon':'car', lastLogLimit: 60 },
+  { '_id': 4, 'callsign': 'BATA-104', 'name': 'WL-4', 'subnet': 'route', 'motoTrboId': '123456', 'lastLog': new Date(), 'icon':'car', lastLogLimit: 60 },
+
+]);
+
